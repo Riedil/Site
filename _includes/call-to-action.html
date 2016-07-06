@@ -7,28 +7,30 @@
         <h3>Chiamaci al +39 3939 21 81 75</h3><br>
         <h4>Oppure compila il modulo qui sotto fornendo almeno un recapito, meglio se telefonico.<br/>
         Ti contatteremo non appena possibile </h4>
-        <form action="https://formspree.io/info@riedilge.com" method="POST">
-          <div class="form-group">
-            <label for="CustNome">Nome</label>
-            <input type="text" class="form-control" id="CustNome" placeholder="Nome e Cognome" name="Nome">
-          </div>
-          <div class="form-group">
-            <label for="CustTel">Recapito Telefonico</label>
-            <input type="tel" class="form-control" id="CustTel" placeholder="+39 010 1234567" name="Telefono">
-          </div>
-          <div class="form-group">
-            <label for="CustEmail">Indirizzo Email</label>
-            <input type="email" class="form-control" id="CustEmail" name="_replyto" placeholder="mail@server.it">
-          </div>
-          <div class="form-group">
-            <label for="CustMess">Messaggio:</label>
-            <textarea class="form-control" id="CustMess" placeholder="Scrivi il tuo messaggio..." name="Messaggio"></textarea>
-          </div>
-          <input type="hidden" name="_next" value="/grazie-contatto.html" />
-          <input type="hidden" name="_subject" value="Nuovo Contatto dal sito Riedil!" />
-          <input type="text" name="_gotcha" style="display:none" />
-          <button type="submit" class="btn btn-lg btn-success">INVIA</button>
-        </form>
+        <div class="text-left">
+          <form action="https://formspree.io/info@riedilge.com" method="POST">
+            <div class="form-group">
+              <label for="CustNome">Nome</label>
+              <input type="text" class="form-control" id="CustNome" placeholder="Nome e Cognome" name="Nome">
+            </div>
+            <div class="form-group">
+              <label for="CustTel">Recapito Telefonico</label>
+              <input type="tel" class="form-control" id="CustTel" placeholder="+39 010 1234567" name="Telefono">
+            </div>
+            <div class="form-group">
+              <label for="CustEmail">Indirizzo Email</label>
+              <input type="email" class="form-control" id="CustEmail" name="_replyto" placeholder="mail@server.it">
+            </div>
+            <div class="form-group">
+              <label for="CustMess">Messaggio:</label>
+              <textarea class="form-control" id="CustMess" placeholder="Scrivi il tuo messaggio..." name="Messaggio"></textarea>
+            </div>
+            <input type="hidden" name="_next" value="/grazie-contatto.html" />
+            <input type="hidden" name="_subject" value="Nuovo Contatto dal sito Riedil!" />
+            <input type="text" name="_gotcha" style="display:none" />
+            <button type="submit" class="btn btn-lg btn-success">INVIA</button>
+          </form>
+        </div>
       </div>
     </div>
   </div>
