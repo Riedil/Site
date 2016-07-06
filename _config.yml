@@ -22,3 +22,9 @@ copyright: "Riedil di Fucarese Lucia"
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-gallery-generator
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
