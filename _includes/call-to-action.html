@@ -6,8 +6,8 @@
         <h3>Scrivi a: info@riedilge.com</h3>
         <h3>Chiamaci al +39 3939 21 81 75</h3><br>
         <h4>Oppure compila il modulo qui sotto fornendo almeno un recapito, meglio se telefonico.<br/>
-        Ti contatteremo non appena possibile </h4>
-        <div class="text-left">
+        Ti contatteremo non appena possibile </h4><br>
+        <div class="text-left" style="width:50%;">
           <form action="https://formspree.io/info@riedilge.com" method="POST">
             <div class="form-group">
               <label for="CustNome">Nome</label>
@@ -23,11 +23,11 @@
             </div>
             <div class="form-group">
               <label for="CustMess">Messaggio:</label>
-              <textarea class="form-control" id="CustMess" placeholder="Scrivi il tuo messaggio..." name="Messaggio"></textarea>
+              <textarea class="form-control" rows="5" id="CustMess" placeholder="Scrivi il tuo messaggio..." name="Messaggio"></textarea>
             </div>
             <input type="hidden" name="_next" value="/grazie-contatto.html" />
             <input type="hidden" name="_subject" value="Nuovo Contatto dal sito Riedil!" />
-            <input type="text" name="_gotcha" style="display:none" />
+            <input type="text" name="_gotcha" style="display:none" placeholder="Qui non ci scrivere nulla..." />
             <button type="submit" class="btn btn-lg btn-success">INVIA</button>
           </form>
         </div>
