@@ -24,13 +24,12 @@ copyright: "Riedil di Fucarese Lucia"
 markdown: kramdown
 
 gems:
-  #https://github.com/ggreer/jekyll-gallery-generator
   - jekyll-gallery-generator
   - jekyll-sitemap
-  #- jekyll-seo-tag
+# - jekyll-seo-tag
 
   gallery:
-    dir: photos
+    dir: galleria
     # title for gallery index
     title: "I nostri lavori"
     # title prefix for gallery page. title=title_prefix+gallery_name
