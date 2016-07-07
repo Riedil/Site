@@ -24,7 +24,8 @@ copyright: "Riedil di Fucarese Lucia"
 markdown: kramdown
 
 gems:
-  - jekyll-gallery-generator #https://github.com/ggreer/jekyll-gallery-generator
+  #https://github.com/ggreer/jekyll-gallery-generator
+  - jekyll-gallery-generator
   - jekyll-sitemap
   #- jekyll-seo-tag
 
