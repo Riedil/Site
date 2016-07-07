@@ -7,22 +7,19 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
         <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-          <div class="fotorama" data-width="90%" data-ratio="16:9" data-minwidth="400"
-     data-maxwidth="1600"
-     data-minheight="500"
-     data-maxheight="900"
-     data-nav="thumbs"
-     data-allowfullscreen="native"
-     data-fit="cover"
-     data-hash="true"
-     data-loop="true"
-     data-autoplay="true"
-     data-keyboard="true"
-     data-arrows="true"
-     data-click="true"
-     data-swipe="true"
-     data-transition="slide">
-            {% for myimage in site.static_files %}{% if myimage.path contains 'galleria' %}<a href="{{myimage.path}}"></a>{% endif %}{% endfor %}
+          <div class="fotorama"
+            data-nav="thumbs"
+            data-allowfullscreen="native"
+            data-fit="cover"
+            data-hash="true"
+            data-loop="true"
+            data-autoplay="true"
+            data-keyboard="true"
+            data-arrows="true"
+            data-click="true"
+            data-swipe="true"
+            data-transition="slide">
+              {% for myimage in site.static_files %}{% if myimage.path contains 'galleria' %}<a href="{{myimage.path}}"></a>{% endif %}{% endfor %}
           </div>
       </div>
     </div>
