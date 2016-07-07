@@ -26,18 +26,13 @@ markdown: kramdown
 gems:
   - jekyll-gallery-generator
   - jekyll-sitemap
-# - jekyll-seo-tag
+  - jekyll-seo-tag
 
-  gallery:
-    dir: galleria
-    # title for gallery index
-    title: "I nostri lavori"
-    # title prefix for gallery page. title=title_prefix+gallery_name
-    title_prefix: "Foto: "
-    # field to control sorting of galleries for the index page
-    # (possible values are: title, date_time, best_image)
-    sort_field: "date_time"
-    # sizes for thumbnails
-    thumbnail_size:
-      x: 400
-      y: 400
+gallery:
+  dir: galleria
+  title: "I nostri lavori"
+  title_prefix: "Foto: "
+  sort_field: "date_time"
+  thumbnail_size:
+    x: 400
+    y: 400
