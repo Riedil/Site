@@ -4,7 +4,7 @@ email: "info@riedilge.com"
 description: >
   Riedil Genova, edilizia a Genova per tutte le tasche.
 baseurl: "/Site/" # the subpath of your site, e.g. /blog/
-url: "https://riedil.github.io/" # the base hostname & protocol for your site
+url: "https://riedil.github.io" # the base hostname & protocol for your site
 
 # User setting
 owner: "Riedil Genova"
