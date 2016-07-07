@@ -3,7 +3,7 @@ title: "Riedil Genova"
 email: "info@riedilge.com"
 description: >
   Riedil Genova, edilizia a Genova per tutte le tasche.
-baseurl: "/Site/" # the subpath of your site, e.g. /blog/
+baseurl: "/Site" # the subpath of your site, e.g. /blog/
 url: "https://riedil.github.io" # the base hostname & protocol for your site
 
 # User setting
@@ -24,7 +24,20 @@ copyright: "Riedil di Fucarese Lucia"
 markdown: kramdown
 
 gems:
-  - jekyll-gallery-generator
+  - jekyll-gallery-generator #https://github.com/ggreer/jekyll-gallery-generator
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
+  #- jekyll-seo-tag
+
+  gallery:
+    dir: photos
+    # title for gallery index
+    title: "I nostri lavori"
+    # title prefix for gallery page. title=title_prefix+gallery_name
+    title_prefix: "Foto: "
+    # field to control sorting of galleries for the index page
+    # (possible values are: title, date_time, best_image)
+    sort_field: "date_time"
+    # sizes for thumbnails
+    thumbnail_size:
+      x: 400
+      y: 400
