@@ -24,15 +24,5 @@ copyright: "Riedil di Fucarese Lucia"
 markdown: kramdown
 
 gems:
-  - jekyll-gallery-generator
   - jekyll-sitemap
   - jekyll-seo-tag
-
-gallery:
-  dir: _galleria
-  title: "I nostri lavori"
-  title_prefix: "Foto: "
-  sort_field: "date_time"
-  thumbnail_size:
-    x: 400
-    y: 400
