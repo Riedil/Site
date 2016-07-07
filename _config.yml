@@ -29,10 +29,13 @@ gems:
   - jekyll-seo-tag
 
 gallery:
-  dir: galleria
+  dir: _galleria
   title: "I nostri lavori"
   title_prefix: "Foto: "
   sort_field: "date_time"
   thumbnail_size:
     x: 400
     y: 400
+
+collections:
+  - galleria
