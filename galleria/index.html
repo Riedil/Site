@@ -4,3 +4,10 @@ title: Galleria Fotografica - Riedil
 ---
 
 <h1>Galleria Fotografica</h1>
+<ul>
+{% for file in site.static_files %}
+  {% if file.extname == ".jpg" and file.path contains 'fotografie' %}
+    <img class="img img-responsive" src="{{ site.url }}{{ site.baseurl}}{{ file.path }}" alt="{{ file.name }}"><br>
+  {% endif %}
+{% endfor %}
+</ul>
