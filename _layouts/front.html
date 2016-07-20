@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="it">
-
-  {% include head.html %}
-
-<body>
-
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
   {% include navigation.html %}
   {% include header.html %}
   {% include about.html %}
   {% include services.html %}
-  <!-- {% include callout.html %} -->
+          {% comment %}
+            {% include callout.html %}
+          {% endcomment %}
   {% include portfolio.html %}
   {% include call-to-action.html %}
-  <!-- {% include map.html %} -->
+          {% comment %}
+            {% include map.html %}
+          {% endcomment %}
   {% include footer.html %}
   {% include scripts.html %}
-
 </body>
 
 </html>
