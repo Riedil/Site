@@ -3,25 +3,23 @@ title: "Riedil Genova"
 email: "info@riedilge.com"
 description: >
   Riedil Genova, edilizia a Genova per tutte le tasche.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://riedilge.com" # the base hostname & protocol for your site
+baseurl: ""
+# url: "https://riedilge.com"
+url: "http://localhost:4000"
 
-# User setting
 owner: "Riedil Genova"
 email: "info@riedilge.com"
-#facebook_username:
-#twitter_username:
-#github_username:
 address:
   - line: "Via Cornigliano 14/5, 16152, Genova, GE, IT"
 telephone: "+39 393 92 18 175"
 copyright: "Riedil di Fucarese Lucia"
 
-# API settings
 #google_api_key:
 
-# Build settings
 markdown: kramdown
+
+sass:
+    style: compressed
 
 gems:
   - jekyll-paginate
