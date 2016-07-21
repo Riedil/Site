@@ -7,7 +7,7 @@ title: Galleria Fotografica - Riedil
 <ul>
 {% for file in site.static_files %}
   {% if file.extname == ".jpg" and file.path contains 'fotografie' %}
-    <img class="img img-responsive" src="{{ site.url }}{{ site.baseurl}}{{ file.path }}" alt="{{ file.name }}"><br>
+    <img class="img img-responsive" src="{{ site.url }}{{ file.path }}" alt="{{ file.name }}"><br>
   {% endif %}
 {% endfor %}
 </ul>
